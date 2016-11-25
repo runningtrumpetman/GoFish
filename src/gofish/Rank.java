@@ -14,6 +14,8 @@ public enum Rank
 		return cardNumber;
 	}
 	
-	
+	public boolean equals(Rank r){
+		return cardNumber == r.rankNum();
+	}
 
 }
